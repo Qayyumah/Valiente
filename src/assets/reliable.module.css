@@ -1,0 +1,80 @@
+.reliableContainer{
+    background: #150E0E;
+;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 95px;
+    gap: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.reliableAlly{
+    width: 45%;
+    h1{
+        color: rgba(255, 255, 255, 1);
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 48px;
+        margin-bottom: 10px;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 400;
+        margin-top: 0;
+    }
+}
+.reliableShowImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.relImg2{
+    margin-bottom: -250px;
+    margin-left: -80px;
+}
+.services{
+    margin: 35px 0;
+
+    li{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 25px 0;
+        color: rgba(255, 255, 255, 0.7);
+
+        img{
+            margin-right: 10px;
+        }
+        span{
+            font-size: 17px;
+        }
+    }
+}
+
+.investmentLink{
+
+    button{
+        background-color: rgba(234, 35, 40, 1);
+        border: none;
+        border-radius: 4px;
+        padding: 8px 20px;
+        font-size:16px;
+        line-height: 24px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 7px;
+        color: rgba(255, 255, 255, 1);
+
+        img{
+            width: 19px;
+            height: 19px;
+        }
+    }
+}

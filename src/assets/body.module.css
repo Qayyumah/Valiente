@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.hero{
+    /* background-color: rgba(217, 217, 217, 1); */
+    /* background: linear-gradient(180deg, #02251ff7 0%, #1d3838 100%); */
+    background-size: cover;
+    min-height: min-content;
+}
+
+.content{
+    padding-left: 95px;
+    padding-top: 10em;
+}
+.contentFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.building{
+
+    h1{
+        font-size: 65px;
+        line-height: 74px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 700;
+    }
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+
+    .innovativeImg{
+        
+        text-align: right;
+    }
+    .innovativeImg img{
+        width: 800px;
+        height: 650px;
+
+    }
+}
+.vamcoInnovative{
+    backdrop-filter: blur(30px);
+    background-color: rgba(204, 204, 204, 0.1);
+    border-radius: 12px;
+    opacity: 0.90;
+    padding: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    height: 430px;
+
+    p{
+        line-height: 24px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+}
+.services{
+    margin: 35px 0;
+
+    li{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 25px 0;
+
+        img{
+            margin-right: 10px;
+        }
+        span{
+            font-size: 17px;
+        }
+    }
+}

@@ -1,0 +1,177 @@
+.serviceContainer{
+    background: rgba(19, 10, 10, 1);
+    min-height: min-content;
+    padding-top: 80px;
+}
+
+.offer{
+    background: rgba(69, 27, 28, 1);
+    margin: 0 95px;
+    border-radius: 16px;
+    display: flex;
+    padding: 20px 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.offerText{
+    margin-left: 100px;
+
+    p{
+        margin-top: 80px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        color: rgba(255, 255, 255, 1);
+        line-height: 24px;
+        font-size: 16px;
+        cursor: pointer;
+
+        img{
+            width: 20px;
+            height: 20px;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}
+.textImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+/*  */
+.investmentStrategies{
+    padding-top: 70px;
+}
+.strategiesHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.strategiesText{
+    text-align: center;
+    p{
+        color: rgba(255, 255, 255, 1);
+        opacity: 50%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    h1{
+        color: rgba(255, 255, 255, 1);
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 45px;
+        margin-top: 0px;
+    }
+}
+
+/*  */
+.funds{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 95px;
+    margin-top: -15px;
+}
+.mutualFunds{
+    width: 25%;
+    margin-top: 175px;
+    margin-left: -200px;
+
+    h3{
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+    p{
+        color: rgba(255, 255, 255, 1);
+        opacity: 50%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-top: 0;
+    }
+}
+
+/* .. */
+.serviceDescriptionBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 120px 180px;
+}
+.wealth,
+.liquidity,
+.products{
+    backdrop-filter: blur(30px);
+    background: rgba(150, 117, 117, 0.1);
+    border-radius: 12px;
+    opacity: 90%;
+    padding: 25px 20px;
+
+    .wealthImg,
+    .liquidityImg,
+    .productsImg{
+        background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+        width: 25px;
+        padding: 10px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    h3{
+      color: rgba(255, 255, 255, 1);
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;  
+      margin-bottom: 0;
+    }
+    p{
+        font-size: 17px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 10px;
+    }
+}
+
+.investmentButton{
+    padding-top: 45px;
+
+    button{
+        background-color: rgba(204, 204, 204, 0.1);
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        padding: 8px 20px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+
+        img{
+            width: 20px;
+            height: 18px;
+        }
+    }
+}

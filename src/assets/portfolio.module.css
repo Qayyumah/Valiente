@@ -1,0 +1,41 @@
+.portfolioContainer{
+    background: #161010;
+    padding: 30px 95px;
+}
+
+.portManagement{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portContent{
+    width: 50%;
+    margin-top: 50px;
+    h1{
+        color: #FFF5F5;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 32.5px;
+    }
+    p{
+        color: #FFFFFFCC;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+
+    button{
+        background-color: #ffffff;
+        color: #EA2328;
+        padding: 8px 10px;
+        text-align: center;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,129 @@
+.aboutContainer{
+    background-color: rgba(21, 14, 14, 1);
+    min-height: min-content;
+}
+.aboutHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutHeaderText{
+    text-align: center;
+    p{
+        color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 50%;
+    }
+    h1{
+       font-weight: 300;
+       font-size: 35px;
+       color: rgba(255, 255, 255, 1);
+       margin-bottom: 0;
+       /* margin-top: 13px; */
+    }
+    h3{
+       font-weight: 300;
+       font-size: 32px; 
+       color: rgba(255, 255, 255, 1);
+       opacity: 50%;
+       margin-top: 3px;
+    }
+}
+
+/*  */
+.protected{
+    display: flex;
+    padding-left: 95px;
+    margin-top: -15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.protectedContent{
+    width: 25%;
+    margin-top: 155px;
+    margin-left: -200px;
+
+    h3{
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+    p{
+        color: rgba(255, 255, 255, 1);
+        opacity: 50%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-top: 0;
+    }
+}
+
+/*  */
+.aboutDescriptionBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 120px 180px;
+}
+.financial,
+.simple,
+.safeguard{
+    backdrop-filter: blur(30px);
+    background-color: rgba(204, 204, 204, 0.1);
+    border-radius: 12px;
+    opacity: 90%;
+    padding: 25px 20px;
+
+    .financialImg,
+    .simpleImg,
+    .safeguardImg{
+        background: linear-gradient(180deg, #EA2328 0%, #841417 100%);
+        width: 30px;
+        padding: 10px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    h3{
+      color: rgba(231, 57, 57, 1);
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;  
+      margin-bottom: 0;
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 10px;
+    }
+}
+
+.investmentButton{
+    padding-top: 45px;
+
+    button{
+        background-color: rgba(204, 204, 204, 0.1);
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        padding: 8px 20px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+
+        img{
+            width: 20px;
+            height: 18px;
+        }
+    }
+}
