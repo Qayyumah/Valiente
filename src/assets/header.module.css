@@ -1,4 +1,4 @@
-.header{
+/* .header{
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -21,4 +21,96 @@
     margin: 0 5px;
     cursor: pointer;
 }
+ */
 
+
+ .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 28px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    justify-content: space-between;
+  }
+  
+  .links a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+  
+  .registerButton button {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1024px) {
+    .menu {
+      gap: 35px;
+    }
+  
+    .links a {
+      font-size: 14px;
+      margin: 0 5px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 15px;
+      border-radius: 8px;
+      z-index: 1000;
+    }
+  
+    .menu.active {
+      display: flex;
+    }
+  
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .registerButton {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .registerButton button {
+      width: 100%;
+    }
+  }

@@ -32,18 +32,7 @@ const Services = () => {
                 <img src='/images/Group 1171275801.png'/>
                 <div className={styles.strategiesText}>
                     <p>OUR INVESTMENT STRATEGIES</p>
-                    <div style={{
-                        backgroundImage: `url('/images/Line 125.png')`,
-                        backgroundSize: 'cover',
-                        backgroundRepeat:'no-repeat',
-                        width: '488px',
-                        height: '57.5px',
-                        borderRadius: '20px 0px 0px 0px',
-                        border: '1.5px 0px 0px 0px',
-                        opacity: '0px'
-                    }}>
                         <h1>Tailored Solutions for Every Investor.</h1>
-                    </div>
                 </div>
                 <img src='/images/Group 1171275800 (2).png'/>
             </div>

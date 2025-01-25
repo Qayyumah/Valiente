@@ -175,3 +175,167 @@
         }
     }
 }
+
+/* Tablet View (1024px and below) */
+@media (max-width: 1024px) {
+    .serviceContainer {
+      padding-top: 60px;
+    }
+  
+    .offer {
+      flex-direction: row;
+      margin: 0 30px;
+      padding: 20px;
+      align-items: normal;
+      gap: 20px;
+    }
+  
+    .offerText {
+      margin-left: 0;
+      margin-top: 0px;
+
+      p{
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 50px;
+      }
+    }
+    .textImg {
+      flex-direction: column;
+      gap: 20px;
+
+      img{
+        display: none;
+      }
+    }
+  
+    .investmentStrategies {
+      padding-top: 50px;
+    }
+  
+    .strategiesHeader {
+      flex-direction: row;
+      gap: 20px;
+      text-align: center;
+
+      img{
+        width: 15%;
+      }
+    }
+  
+    .funds {
+      flex-direction: row;
+      align-items: none;
+      padding-left: 20px;
+      margin-top: 0px;
+      gap: 40px;
+    }
+    .funds img:first-child{
+        display: none;
+    }
+    .mutualFunds {
+      width: 80%;
+      margin-top: 0px;
+      margin-left: 20px;
+      /* text-align: center; */
+
+      h3{
+        font-size: 25px;
+        line-height: 50px;
+      }
+      p{
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+  
+    .serviceDescriptionBox {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 60px 50px;
+      gap: 30px;
+    }
+  
+    .investmentButton {
+      text-align: center;
+    }
+  }
+  
+  /* Mobile View (768px and below) */
+  @media (max-width: 768px) {
+    .serviceContainer {
+      padding-top: 40px;
+    }
+  
+    .offer {
+        flex-direction: column;
+        margin: 0 30px;
+        padding: 20px;
+        align-items: normal;
+        gap: 0px;
+
+        img{
+            width: 100%;
+        }
+      }
+  
+    .offerText p {
+      font-size: 20px;
+      line-height: 38px;
+    }
+  
+    .offerText a {
+      font-size: 14px;
+    }
+    .strategiesHeader {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+  
+        img{
+          display: none;
+        }
+      }
+  
+    .strategiesText h1 {
+      font-size: 24px;
+      line-height: 34px;
+    }
+  
+    .strategiesText p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .funds {
+      padding-left: 0;
+
+      img{
+        display: none;
+      }
+    }
+  
+    .mutualFunds {
+      width: 100%;
+      margin-top: 30px;
+      text-align: center;
+      padding: 0 30px;
+    }
+  
+    .serviceDescriptionBox {
+      grid-template-columns: 1fr;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+  
+    .wealth,
+    .liquidity,
+    .products {
+      padding: 15px 10px;
+    }
+  
+    .investmentButton button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  }
+  

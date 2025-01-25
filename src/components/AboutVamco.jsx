@@ -8,18 +8,9 @@ const AboutVamco = () => {
             <img src='/images/Group 1171275801.png'/>
             <div className={styles.aboutHeaderText}>
                 <p>VALIENTE ASSET MANAGEMENT</p>
-                <div style={{
-                    backgroundImage: `url('/images/Line 125.png')`,
-                    backgroundSize: 'cover',
-                    backgroundRepeat:'no-repeat',
-                    width: '538px',
-                    height: '57.5px',
-                    borderRadius: '20px 0px 0px 0px',
-                    border: '1.5px 0px 0px 0px',
-                    opacity: '0px'
-                }}>
+               
                     <h1>We are building your financial future.</h1>
-                </div>
+              
                 <h3>We are Keeping you protected</h3>
             </div>
             <img src='/images/Group 1171275800 (2).png'/>

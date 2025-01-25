@@ -198,14 +198,13 @@ const CustomNextArrow = ({ onClick }) => {
 export default Portfolio;
 
 const Carousel = styled(Slider)`
-    padding-top: 100px;
+    /* padding-top: 100px; */
 
-    ul li{
-        margin: 0;
+    ul li {
+        margin: -4px;
     }
 
     ul li button {
-        /* color: #fff; */
         &:before {
             font-size: 7px;
             color: white;
@@ -248,12 +247,37 @@ const Carousel = styled(Slider)`
         background: #EA2328;
     }
 
-    @media (max-width: 600px) {
-        .custom-prev {
-            left: 5px;
+    @media (max-width: 1024px) {
+        ul li button:before {
+            font-size: 6px;
+            margin-top: -130px;
+            margin-left: -360px;
         }
+
+        .custom-prev {
+            margin-left: 200px;
+            margin-top: 185px;
+            padding: 6px 7px;
+        }
+
         .custom-next {
-            right: 5px;
+            margin-left: 250px;
+            margin-top: 185px;
+            padding: 6px 7px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        ul li button:before {
+            display: none;
+        }
+
+        .custom-prev {
+            display: none;
+        }
+
+        .custom-next {
+            display: none;
         }
     }
 `

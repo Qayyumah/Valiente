@@ -1,9 +1,7 @@
-body{
+/* body{
     margin: 0;
 }
 .hero{
-    /* background-color: rgba(217, 217, 217, 1); */
-    /* background: linear-gradient(180deg, #02251ff7 0%, #1d3838 100%); */
     background-size: cover;
     min-height: min-content;
 }
@@ -75,5 +73,176 @@ body{
         span{
             font-size: 17px;
         }
+    }
+} */
+
+
+body {
+    margin: 0;
+}
+
+.hero {
+    background-size: cover;
+    min-height: min-content;
+}
+
+.content {
+    padding-left: 95px;
+    padding-top: 10em;
+}
+
+.contentFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.building h1 {
+    font-size: 65px;
+    line-height: 74px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+
+.innovativeImg {
+    text-align: right;
+}
+
+.innovativeImg img {
+    width: 800px;
+    height: 650px;
+}
+
+.vamcoInnovative {
+    backdrop-filter: blur(30px);
+    background-color: rgba(204, 204, 204, 0.1);
+    border-radius: 12px;
+    opacity: 0.90;
+    padding: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    height: 430px;
+}
+
+.vamcoInnovative p {
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.services {
+    margin: 35px 0;
+}
+
+.services li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.services li img {
+    margin-right: 10px;
+}
+
+.services li span {
+    font-size: 17px;
+}
+
+/* Tablet View (768px–1024px) */
+@media (max-width: 1024px) {
+    .content {
+        padding-left: 50px;
+        padding-top: 10em;
+    }
+
+    .contentFlex {
+        img{
+            display: none;
+        }
+    }
+
+    .building h1 {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    .content2 {
+        /* flex-direction: column; */
+        gap: 40px;
+        align-items: center;
+    }
+
+    .innovativeImg img {
+        width: 500px;
+        height: auto;
+    }
+
+    .vamcoInnovative {
+        height: auto;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .vamcoInnovative p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .services li span {
+        font-size: 15px;
+    }
+}
+
+/* Mobile View (≤767px) */
+@media (max-width: 768px) {
+    .content {
+        padding: 0;
+        padding-top: 5em;
+    }
+
+    .contentFlex {
+        text-align: center;
+    }
+
+    .building h1 {
+        font-size: 32px;
+        line-height: 52px;
+    }
+
+    .content2 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        
+        
+    }
+
+    .innovativeImg img {
+        width: 80%;
+        height: auto;
+    }
+
+    .vamcoInnovative {
+        height: auto;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .vamcoInnovative p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .services li span {
+        font-size: 14px;
     }
 }

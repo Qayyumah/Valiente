@@ -39,3 +39,85 @@
         margin-top: 40px;
     }
 }
+
+/* For tablets and smaller screens */
+@media (max-width: 1024px) {
+    .portContent h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .portContent p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .portImg img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    .portfolioContainer{
+        padding: 0 ;
+    }
+    .portManagement {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0;
+        /* text-align: center; */
+        gap: 50px;
+    }
+    .portContent{
+        width: 90%;
+    }
+    .portContent h1 {
+        font-size: 34px;
+        line-height: 32px;
+    }
+
+    .portContent p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .portContent button {
+        padding: 8px 16px;
+    }
+
+    .portImg img {
+        max-width: 100%;
+    }
+}
+
+/* For smaller mobile screens */
+@media (max-width: 480px) {
+    .portfolioContainer {
+        padding: 10px;
+    }
+
+    .portManagement {
+        gap: 15px;
+    }
+
+    .portContent h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .portContent p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .portContent button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .portImg img {
+        max-width: 90%;
+    }
+}

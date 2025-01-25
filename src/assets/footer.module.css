@@ -48,3 +48,82 @@ footer{
     align-items: center;
     gap: 10px;
 }
+
+@media (max-width: 1024px) {
+    footer {
+        padding: 50px 60px;
+    }
+
+    .footerList {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+
+    .copyright {
+        padding-top: 80px;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 30px;
+    }
+
+    .footerList {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .copyright {
+        padding-top: 60px;
+    }
+
+    .socials {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 30px 20px;
+    }
+
+    .footerList {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .copyright {
+        padding-top: 40px;
+    }
+
+    .socials {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .company h3,
+    .career h3,
+    .legal h3,
+    .getInTouch h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .company p,
+    .career p,
+    .legal p,
+    .getInTouch p {
+        font-size: 14px;
+    }
+
+    .copyright p {
+        font-size: 14px;
+    }
+}
